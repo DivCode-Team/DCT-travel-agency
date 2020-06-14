@@ -12,6 +12,9 @@ export default props => {
           <div className="message">
             Exploring<span>The World</span>
           </div>
+          <div className="button">
+            <a href="/">Get started</a>
+          </div>
         </div>
       </div>
     </header>

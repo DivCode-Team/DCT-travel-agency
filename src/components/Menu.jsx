@@ -11,11 +11,11 @@ export default () => {
         </div>
 
         <div className="option">
-          <a href="/">About</a>
+          <a href="/">Gallery</a>
         </div>
 
         <div className="option">
-          <a href="/">Gallery</a>
+          <a href="/">About</a>
         </div>
 
         <div className="option">
