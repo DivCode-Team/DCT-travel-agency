@@ -6,7 +6,8 @@ export default props => {
   
   return (
     <main>
-      <div className="image">
+      <div className="bestTravels">
+        <h1 className="title">Best <span>Travels</span></h1>
         {props.children}
       </div>
     </main>

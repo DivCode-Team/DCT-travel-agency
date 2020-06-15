@@ -22,6 +22,27 @@ header .blur {
   filter: blur(4px);
 }
 
+header .content .message {
+  animation: left 700ms ease-in-out;  
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(35%);
+  }
+}
+
+
+header .content .button {
+  animation: button 700ms ease-in-out;  
+}
+
+@keyframes button {
+  0% {
+    transform: translateX(-50%);
+  }
+}
+
 
 header .modal .content .message {
   margin: 15% 0 auto 15%;
