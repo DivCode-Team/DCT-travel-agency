@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Main from './components/Main';
+import BestTravels from './components/BestTravels';
 import Header from './components/Header';
 import Menu from './components/Menu';
 
@@ -10,7 +12,11 @@ export default props => {
     <div className="App">
       <div>
         <Menu></Menu>
-        <Header></Header>
+        <Header>
+        </Header>
+        <Main>
+          <BestTravels></BestTravels>
+        </Main>
       </div>
     </div>
   );

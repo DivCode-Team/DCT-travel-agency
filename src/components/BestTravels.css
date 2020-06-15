@@ -1,0 +1,49 @@
+.cards {
+  position: absolute;
+  top: -10%;
+  left: 260px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  width: 60%;
+  height: 50%;
+  min-width: 60%;
+  min-height: 50%;
+  max-width: 60%;
+  max-height: 50%;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  border-radius: 18px;
+  filter: blur(4px);
+}
+
+.card:hover{
+  filter: blur(0);
+  transform: scale(1.2);
+}
+
+.card .name {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(47, 47, 47, 0.849);
+}
+
+
+.modal {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(165, 165, 165, 0.849);
+}
+
