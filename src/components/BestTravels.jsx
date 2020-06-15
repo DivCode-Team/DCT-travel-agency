@@ -20,7 +20,7 @@ export default props => {
     );
   });
   return (
-    <div className="cards">
+    <div id="cards" className="cards">
       {travelsCard}
     </div>
   );

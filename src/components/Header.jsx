@@ -5,7 +5,7 @@ import './Header.css'
 
 export default props => {
   return (
-    <header>
+    <header id="header">
       <div className="image blur"></div>
       <div className="modal">
         <div className="content">

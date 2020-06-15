@@ -7,19 +7,19 @@ export default () => {
     <div className="Menu">
       <div className="options">
         <div className="option">
-          <a href="/">Home</a>
+          <a href="#header">Home</a>
         </div>
 
         <div className="option">
-          <a href="/">Gallery</a>
+          <a href="#cards">Travels</a>
         </div>
 
         <div className="option">
-          <a href="/">About</a>
+          <a href="#about">About</a>
         </div>
 
         <div className="option">
-          <a href="/">Contacts</a>
+          <a href="#contacts">Contacts</a>
         </div>
 
       </div>

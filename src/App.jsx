@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Contact from './components/Contacts';
+import About from './components/About';
 import Main from './components/Main';
 import BestTravels from './components/BestTravels';
 import Header from './components/Header';
@@ -11,12 +13,13 @@ export default props => {
   return (
     <div className="App">
       <div>
-        <Menu></Menu>
-        <Header>
-        </Header>
+        <Menu />
+        <Header />
         <Main>
-          <BestTravels></BestTravels>
+          <BestTravels />
         </Main>
+        <About />
+        <Contact />
       </div>
     </div>
   );
